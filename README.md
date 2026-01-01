@@ -67,7 +67,7 @@ venv\Scripts\activate
 ### Install Dependencies
 
 ```bash
-pip install torch torchvision numpy opencv-python
+pip install torch torchvision numpy opencv-python pillow
 ```
 
 ## Dataset Setup (Required)
@@ -128,3 +128,4 @@ python -m app.unified_whiteboard
 - The included dataset matches the whiteboard input format
 - Adding more samples and retraining improves accuracy
 - Public datasets were intentionally avoided due to input mismatch
+
